@@ -4,7 +4,7 @@
 __init__(self, num_in_nodes, .....)
                  
 # This method is to do the heavy lifting, that is, train neural net, and report error.
-#The network configuration should be saved within the network itself at the end of the training. Finally the program will output the correct list of errors based on #incremental learning    
+# The network configuration should be saved within the network itself at the end of the training. Finally the program will output the correct list of errors based on incremental learning    
 train_net_incremental(self, input_list, output_list, max_num_epoch=100000, min_sse=0.001)
 
 #  Feed forward calculate the activation values given the input.
